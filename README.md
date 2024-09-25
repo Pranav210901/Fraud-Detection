@@ -1,4 +1,3 @@
-This is an implementation of the logistic regression model from scikitlearn, along with a comparison with another logistic regression model built from scratch. 
-The dataset contains actual credit card information transformed into variable entities with values matching those from transactions and other details. 
-This notebook mainly addresses the way to predict fraudulent activities in credit card transactions using a logistic regression model. 
-All the key 
+This notebook presents an implementation of a logistic regression model using Scikit-learn, alongside a comparison to a custom-built logistic regression model. The dataset comprises real credit card transaction data, transformed into variable entities, and notably, it contains no missing values. The primary focus of this analysis is to predict fraudulent activities in credit card transactions using logistic regression.
+
+In my own implementation of the model, I utilized the Standard Scaler from Scikit-learn to normalize the features. This scaling process adjusts the mean values to 0 and the standard deviation to 1, ensuring optimal performance of the model.
